@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko:400,600,700|Maven+Pro|Quicksand:300,500');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+/*
+    width: 100%;
+    height: 100%;
+*/
+    color: #b3b3b3;
+    background-color: #1f1f1f;
+}
+
+#bkgd {
+    flex: 1;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+    visibility: hidden;
+/*
+    width: 100%;
+    height: 1440px;
+*/
+    background-image: url('../img/bkgd-pattern1.png');
+    background-image: url('../img/bkgd-pattern1.png'),
+    -webkit-linear-gradient(left, #89253e, #3a6186);
+    background-image: url('../img/bkgd-pattern1.png'),
+    -moz-linear-gradient(left, #89253e, #3a6186);
+    background-image: urlurl('../img/bkgd-pattern1.png'),
+    -o-linear-gradient(left, #89253e, #3a6186);
+    background-image: urlurl('../img/bkgd-pattern1.png'),
+    linear-gradient(to right, #89253e, #3a6186);
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+}
+
+/*HOME PAGE ELEMENTS//////////////////////////////////////////*/
+
+.home-container {
+    visibility: hidden;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    width: 650px;
+/*    height: 100%;*/
+}
+
+.fortyfive-logo {
+    position: absolute;
+    margin: 26px 0 0 0;
+    width: 81.5px;
+    height: 81.5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    background-image: url('../img/fortyfive-icon2.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: center;
+}
+
+.vert-line {
+    position: absolute;
+    margin: 110px 0 0 0;
+    width: 1px;
+    height: 29px;
+    background-color: #b3b3b3;
+}
+
+.horiz-line {
+    position: absolute;
+    margin: 139px 0 0 0;
+    width: 478.2px;
+    height: 1px;
+    background-color: #b3b3b3;
+}
+
+#djdan-logo {
+    position: absolute;
+    margin: 157px 0 0 0;
+    width: 478.2px;
+    height: 108px;
+    background-image: url('../img/dan-logo1.png');
+    background-repeat: no-repeat;
+    background-size: 254px;
+    background-position: center;
+}
+
+#social-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 280px 0 0 0;
+    width: 478.2px;
+    height: 55px;
+}
+
+#fb {
+    order: 0;
+    width: 41px;
+    height: 41px;
+    background-image: url('../img/fb-icon1.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#ig {
+    order: 1;
+    width: 41px;
+    height: 41px;
+    background-image: url('../img/ig-icon1.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#sc {
+    order: 2;
+    width: 55px;
+    height: 41px;
+    background-image: url('../img/sc-icon1.png');
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+#tw {
+    order: 3;
+    width: 48px;
+    height: 41px;
+    background-image: url('../img/tw-icon1.png');
+    background-repeat: no-repeat;
+    background-size: 47px;
+    background-position: center;
+}
+
+#menu-cont {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin: 337px 0 0 0;
+    font-size: 19px;
+    letter-spacing: .05rem;
+    display: inline-flex;
+    width: 478.2px;
+/*    height: 20%;*/
+}
+
+#menu1 {
+    margin-right: auto;
+    align-self: flex-start;
+}
+
+#menu2 {
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+ul {
+    width: 191.5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    border-radius: 5px;
+}
+
+li {
+    padding-top: 8.2px;
+    margin-bottom: 8.2px;
+    text-align: center;
+    width: 100%;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    cursor: pointer;
+}
+
+li p {
+    transition: all .1s ease-in-out;
+}
+
+li p:hover {
+    color: white;
+    transform: color();
+    transform: scale(1.1);
+}
+
+.top-li {
+    border-top: none;
+}
+
+.vert-line-menu {
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 1px;
+    height: 29px;
+    background-color: #b3b3b3;
+}
+
+.horiz-line-menu {
+    position: absolute;
+    margin: 0;
+    width: 478.2px;
+    height: 1px;
+    background-color: #b3b3b3;
+}
+
+/*PAGES/SECTIONS//////////////////////////////////////////*/
+
+.section-cont {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#bio-pg,
+#tour-pg,
+#gallery-pg,
+#music-pg,
+#contact-pg {
+    z-index: 1;
+    position: absolute;
+    margin: 27.2px auto 0 auto;
+    width: 683px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+}
+
+.close-button {
+    position: relative;
+    left: 642px;
+    margin: 6.8px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #414141;
+}
+
+#dan-logo-sm {
+    position: absolute;
+    margin: -23px 0 0 15.5px;
+    width: 112px;
+    height: 46px;
+    background-image: url(../img/dj-dan-icon-small.png);
+    background-repeat: no-repeat;
+    background-size: 111px;
+}
+
+.sect-header {
+    position: relative;
+    top: 3px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 500;
+    margin: -9.5px 13.7px 13.7px 139.5px;
+    font-size: 25.5px;
+}
+
+hr {
+    border: none;
+    margin: 13.7px;
+    height: 1px;
+    background-color: #b3b3b3;
+}
+
+/*BIO CONTENT//////////////////////////////////////////*/
+
+#bio-cont,
+#tour-cont,
+#gallery-cont,
+#music-cont,
+#contact-cont {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6.8px 13.7px 13.7px 13.7px !important;
+    width: 655px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#bio-cont {
+    display: grid;
+    grid-template-columns: 237px 355px;
+    grid-template-rows: 25%;
+    
+}
+
+#dan-pic {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 273px;
+    height: 438px;
+    background-image: url(../img/dan-bio-pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dan-bio-text1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    letter-spacing: -.27px !important;
+    line-height: 16px !important;
+    width: 355px;
+    height: 320px;
+}
+
+#accomp {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    font-size: 14px;
+    width: 255px;
+    padding: 8px;
+    margin: 0 0 12px 0;
+    border: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    position: relative;
+    left: 40px;
+}
+
+#dan-bio-text2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    letter-spacing: -.27px !important;
+    line-height: 16px !important;
+    width: 273px;
+    position: relative;
+    top: 130px;
+}
+
+/*TOUR CONTENT//////////////////////////////////////////*/
+
+
+
+/*MUSIC CONTENT//////////////////////////////////////////*/
+
+#sound-text {
+    position: absolute;
+    margin-top: -10.5px;
+}
+
+#soundcloud-link {
+    order: 0;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/soundcloud-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 137px;
+    background-position: center;
+}
+
+#mixcloud-link {
+    order: 1;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/mixcloud-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 197px;
+    background-position: center;
+}
+
+#beatport-link {
+    order: 2;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/beatport-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 172px;
+    background-position: center;
+}
+
+#traxsource-link {
+    order: 3;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/traxsource-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 244px;
+    background-position: center;
+}
+
+#spotify-link {
+    order: 4;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/spotify-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 173px;
+    background-position: center;
+}
+
+#discogs-link {
+    order: 5;
+    width: 325px;
+    height: 110px;
+    background-image: url('../img/discogs-logo2.png');
+    background-repeat: no-repeat;
+    background-size: 121px;
+    background-position: center;
+}
+
+/*CONTACT CONTENT//////////////////////////////////////////*/
+
+#contact-info {
+    order: 0;
+    width: 314px;
+}
+
+#send-msg-box {
+    order: 2;
+    display: inline-flex;
+    justify-content: center;
+    width: 652px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+}
+
+#email-signup {
+    order: 1;
+    margin-bottom: 10px;
+    width: 300.5px !important;
+}
+
+form {
+    padding: 11px;
+}
+
+button {
+    margin: 0 0 0 80px;
+    background-color: #1f1f1f;
+    color: #b3b3b3 !important;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b3b3b3;
+}
+
+input {
+    width: 205px;
+    margin: 0 0 15px 80px;
+}
+
+textarea {
+    width: 400px;
+    height: 109px;
+    margin: 0 0 11px 80px;
+}
+
+label {
+    width: 68px;
+    position: absolute;
+}
