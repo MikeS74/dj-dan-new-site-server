@@ -2,8 +2,13 @@
 var express = require("express");
 var path = require("path");
 var app = express();
-var PORT = process.env.PORT || 3001;
 const nodemailer = require('nodemailer');
+var bodyParser = require("body-parser");
+
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
+app.use(bodyParser.json());
 
 //Static file serving for images in public/img
 app.use('/static', express.static(path.join(__dirname, 'app/public')));
@@ -12,10 +17,13 @@ app.use('/static', express.static(path.join(__dirname, 'app/public')));
 // require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
-//Server connection confirmation in node
-app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "./public/index.html"));
 });
+
+app.post("/sendFanMsg", function(data) {
+    console.log(data.body);
+    });
 
 // nodemailer.createTestAccount((err, account) => {
 //     // create reusable transporter object using the default SMTP transport
@@ -48,3 +56,9 @@ app.listen(PORT, function() {
 //         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 //     });
 // });
+
+//Server connection confirmation in node
+var PORT = process.env.PORT || 3001;
+app.listen(PORT, function() {
+    console.log("App listening on PORT: " + PORT);
+});
