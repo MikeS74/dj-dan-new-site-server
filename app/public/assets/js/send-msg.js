@@ -10,6 +10,13 @@ $("#send-btn").on("click", function () {
         fanMessage: fanMessage
     }
 
+    setTimeout(function () {
+        $("#name").val("");
+        $("#mail").val("");
+        $("#msg").val("");
+        $("#send-btn").html("Sent!");
+    }, 250);
+
     //Validate form data
     function validateForm() {
         var isValid = true;
