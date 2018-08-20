@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 850px;
-/*
+    /*
     width: 100%;
     height: 100%;
 */
@@ -19,11 +19,11 @@ body {
 
 #bkgd {
     flex: 1;
-flex-grow: 1;
-flex-shrink: 1;
-flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     visibility: hidden;
-/*
+    /*
     width: 100%;
     height: 1440px;
 */
@@ -50,7 +50,7 @@ flex-basis: auto;
     justify-content: center;
     margin: 0 auto 0 auto;
     width: 650px;
-/*    height: 100%;*/
+    /*    height: 100%;*/
 }
 
 .fortyfive-logo {
@@ -153,7 +153,7 @@ flex-basis: auto;
     letter-spacing: .05rem;
     display: inline-flex;
     width: 478.2px;
-/*    height: 20%;*/
+    /*    height: 20%;*/
 }
 
 #menu1 {
@@ -298,7 +298,7 @@ hr {
     display: grid;
     grid-template-columns: 237px 355px;
     grid-template-rows: 25%;
-    
+
 }
 
 #dan-pic {
@@ -350,8 +350,6 @@ hr {
 }
 
 /*TOUR CONTENT//////////////////////////////////////////*/
-
-
 
 /*MUSIC CONTENT//////////////////////////////////////////*/
 

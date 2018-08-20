@@ -136,7 +136,7 @@
         width: 479.5px;
         font-size: 14px;
     }
-    
+
     #bio-cont {
         display: inline-flex;
     }
@@ -147,33 +147,30 @@
         height: 320.6px;
     }
 
-#dan-bio-text1 {
-    order: 1;
-    width: 260px;
-}
+    #dan-bio-text1 {
+        order: 1;
+        width: 260px;
+    }
 
-#accomp {
-    order: 2;
-    font-size: 12px;
-    width: 182px;
-    margin: 8px 0 8px 0;
-    position: relative;
-    left: 0;
-    top: 5px
-}
+    #accomp {
+        order: 2;
+        font-size: 12px;
+        width: 182px;
+        margin: 8px 0 8px 0;
+        position: relative;
+        left: 0;
+        top: 5px
+    }
 
-#dan-bio-text2 {
-    order: 3;
-    width: 260px;
-    height: 80px;
-    position: relative;
-    top: 47px
-}
+    #dan-bio-text2 {
+        order: 3;
+        width: 260px;
+        height: 80px;
+        position: relative;
+        top: 47px
+    }
 
     /*TOUR CONTENT//////////////////////////////////////////*/
-
-    
-
     /*MUSIC CONTENT//////////////////////////////////////////*/
     #sound-text {
         margin-top: -7.6px;
@@ -403,8 +400,8 @@
         width: 329px;
         font-size: 14px;
     }
-    
-        #bio-cont {
+
+    #bio-cont {
         display: inline-flex;
     }
 
@@ -416,33 +413,30 @@
         margin-bottom: 8px
     }
 
- #dan-bio-text1 {
-    order: 1;
-    width: 100%;
-}
+    #dan-bio-text1 {
+        order: 1;
+        width: 100%;
+    }
 
-#accomp {
-    order: 2;
-    font-size: 12px;
-    width: 100%;
-    margin: 0 0 12px 0;
-    position: relative;
-    left: 0;
-    top: 0;
-}
+    #accomp {
+        order: 2;
+        font-size: 12px;
+        width: 100%;
+        margin: 0 0 12px 0;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
 
-#dan-bio-text2 {
-    order: 3;
-    width: 100%;
-    height: 80px;
-    position: relative;
-    top: 0;
-}
+    #dan-bio-text2 {
+        order: 3;
+        width: 100%;
+        height: 80px;
+        position: relative;
+        top: 0;
+    }
 
     /*TOUR CONTENT//////////////////////////////////////////*/
-
-    
-
     /*MUSIC CONTENT//////////////////////////////////////////*/
     #sound-text {
         margin-top: -7.6px;
