@@ -456,6 +456,17 @@ button {
     border-width: 1px;
     border-style: solid;
     border-color: #b3b3b3;
+    cursor: pointer;
+}
+
+#send-btn {
+    margin: 0 0 0 80px;
+    padding: 2px 2px 2px 5px;
+    width: 38px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b3b3b3;
+    cursor: pointer;
 }
 
 input {

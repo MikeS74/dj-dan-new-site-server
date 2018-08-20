@@ -123,22 +123,24 @@
                         <p id="contact-info-text">
                             Bookings: <a href="mailto:nneka@aptentertainment.com" target="_top" style="text-decoration: none; color: lightgray">nneka@aptentertainment.com</a><br><br> Promo Submissions: <a href="mailto:jason@insterorecordings.com" target="_top" style="text-decoration: none; color: lightgray">jason@insterorecordings.com</a><br><br> Fan Mail: <a href="mailto:djdanmusic@instereorecordings.com" target="_top" style="text-decoration: none; color: lightgray">djdanmusic@instereorecordings.com</a><br><br>
                         </p>
-
                     </div>
+                    <!-- Send message form -->
                     <div id="send-msg-box">
-                        <form action="/my-handling-form-page" method="post">
+                        <form>
                             <div>
                                 <h2>Send a message to the DJ Dan team:</h2><br>
                                 <label for="name">Name:</label>
-                                <input type="text" id="name" name="user_name">   </div>
+                                <input type="text" id="name">   </div>
                             <div>
                                 <label for="mail">E-mail:</label>
-                                <input type="email" id="mail" name="user_email">   </div>
+                                <input type="email" id="mail">   </div>
                             <div>
                                 <label for="msg">Message:</label>
-                                <textarea id="msg" name="user_message"></textarea>   </div>
-                            <div class="button">
-                                <button type="submit">Send</button>   </div>
+                                <textarea id="msg"></textarea>   </div>
+                            <div class="button" id="send-btn">
+                                Send
+                                <!-- <button id="send-btn">Send</button>    -->
+                            </div>
                         </form>
                     </div>
                     <div id="email-signup">
@@ -231,6 +233,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
     <script src="../static/assets/js/Basic-fancyBox-Gallery.js"></script>
     <script type="text/javascript" src="../static/assets/js/script.js"></script>
+    <script type="text/javascript" src="../static/assets/js/send-msg.js"></script>
 </body>
 
 </html>
