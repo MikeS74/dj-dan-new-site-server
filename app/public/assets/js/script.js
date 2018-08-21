@@ -22,6 +22,11 @@ $(document).ready(function () {
         menuFadeIns();
     }, 750);
 
+    // EXTRA LARGE SCREEN SIZE ADJUSTMENT
+    if ($(window).width() > 1440) {
+        $("body").css("height", "1200px");
+    }
+
     //RETURN HOME FUNCTION
     function homeContFadeIn() {
         $(".home-container").delay("slow").fadeIn(500);
@@ -122,6 +127,7 @@ $(document).ready(function () {
     });
 
     //ESC KEY CLOSE
+    // ESC KEY ONCE TO LEAVE BOOTSTRAP - TWICE TO LEAVE GALLERY SECTION
     $(document).on("keyup", function (e) {
         if (e.keyCode === 27 && galDisp === true) {
             galDisp = false;

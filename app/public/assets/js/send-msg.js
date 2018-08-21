@@ -27,6 +27,8 @@ $("#send-btn").on("click", function () {
         });
         return isValid;
     }
+
+    // AJAX post to server for nodemailer
     if (validateForm() == true) {
         $.ajax({
             url: "/sendFanMsg",
