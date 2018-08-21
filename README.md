@@ -12,3 +12,6 @@ The official fan site of American House legend DJ Dan. Clean & minimal layout wi
 + AJAX for server data exchange
 + nodemailer for "Contact" form section
 + Songkick Tourbox API for "Tour" dates
+
+Go here to view all previous commits of the non-server version:
+#### https://github.com/MikeS74/dj-dan-new-site
