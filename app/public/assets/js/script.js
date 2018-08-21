@@ -14,13 +14,13 @@ $(document).ready(function () {
         $("#bkgd").css("visibility", "visible");
         $(".home-container").css("visibility", "visible");
         $(".section-cont").css("visibility", "visible");
-    }, 500);
+    }, 250);
 
     setTimeout(function () {
         $(".home-container").fadeIn(2000);
         $("#bkgd").fadeIn(2000);
         menuFadeIns();
-    }, 1000);
+    }, 750);
 
     // EXTRA LARGE SCREEN SIZE ADJUSTMENT
     if ($(window).width() > 1440) {
