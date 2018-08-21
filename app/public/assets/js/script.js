@@ -9,12 +9,14 @@ $(document).ready(function () {
     $("#contact-pg").hide();
     $(".home-container").hide();
     $("li").hide();
+    
+    $("#menu1").html('<div class="vert-line-menu"> </div><ul> <li id="bio-link" class="top-li"> <p>BIO</p></li><li id="tour-link"> <p>TOUR</p></li><li id="music-link"> <p>MUSIC</p></li><li id="gal-link"> <p>GALLERY</p></li></ul>');
+    $("#menu2").html('<div class="vert-line-menu"> </div><ul> <li id="sdam-link" class="top-li"> <p>STEREO DAMAGE</p></li><li id="instereo-link"> <p>INSTEREO</p></li><li id="merch-link"> <p>MERCH</p></li><li id="contact-link"> <p>CONTACT</p></li></ul>');
 
     setTimeout(function () {
         $("#bkgd").css("visibility", "visible");
         $(".home-container").css("visibility", "visible");
         $(".section-cont").css("visibility", "visible");
-        $("li").css("visibility", "visible");
     }, 250);
 
     setTimeout(function () {
