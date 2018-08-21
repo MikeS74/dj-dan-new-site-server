@@ -33,9 +33,14 @@ $("#send-btn").on("click", function () {
         $.ajax({
             url: "/sendFanMsg",
             data: messageObj,
-            type: "POST"
-        })
-    } else {
+            type: "POST",
+            success: function(output) {
+                alert(output);},
+           error: function (request, status, error) {
+               alert(request.responseText);}
+        });
+    }
+    else {
         alert("Please fill out all fields before submitting!");
     }
     return false;
