@@ -14,6 +14,7 @@ $(document).ready(function () {
         $("#bkgd").css("visibility", "visible");
         $(".home-container").css("visibility", "visible");
         $(".section-cont").css("visibility", "visible");
+        $("li").css("visibility", "visible");
     }, 250);
 
     setTimeout(function () {
