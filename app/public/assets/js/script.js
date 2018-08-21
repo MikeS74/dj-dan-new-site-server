@@ -132,7 +132,7 @@ $(document).ready(function () {
         }
     });
 
-    //EXTERNAL LINKS THAT OPEN IN WINDOW
+    //EXTERNAL LINKS THAT OPEN IN NEW WINDOW
     $("#instereo-link").on("click", function () {
         window.open("http://instereorecordings.com");
     });

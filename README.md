@@ -1,7 +1,7 @@
 # DJ Dan Official Site
 ## www.djdan.com
 ---
-The official fan site for American House legend DJ Dan. Clean, minimal layout which includes all his social links, bio, tour dates, contact info, etc.
+The official fan site of American House legend DJ Dan. Clean & minimal layout with a simple UI. Includes all of DJ Dan's social links, bio, tour dates, contact info, etc.
 
 ## Technologies Used
 

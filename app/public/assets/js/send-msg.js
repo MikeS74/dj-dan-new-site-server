@@ -9,7 +9,8 @@ $("#send-btn").on("click", function () {
         fanEmail: fanEmail,
         fanMessage: fanMessage
     }
-
+    
+    // Clears form inputs after submit
     setTimeout(function () {
         $("#name").val("");
         $("#mail").val("");
@@ -24,7 +25,6 @@ $("#send-btn").on("click", function () {
             if ($(this).val() === '')
                 isValid = false;
         });
-
         return isValid;
     }
     if (validateForm() == true) {
