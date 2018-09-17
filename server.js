@@ -35,8 +35,8 @@ app.post("/sendFanMsg", function (data) {
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: '',
-                pass: ''
+                user: 'smbneqkpsaluckmk@ethereal.email',
+                pass: 'sfnWV85ddphea2Vhc2'
             }
         });
 
