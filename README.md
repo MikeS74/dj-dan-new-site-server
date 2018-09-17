@@ -1,5 +1,5 @@
 # DJ Dan Official Site
-## [djdan.com](https://still-headland-54310.herokuapp.com/)
+## [djdan.com](https://www.djdan.com/)
 ---
 The official fan site of American House legend DJ Dan. Clean & minimal layout with a simple UI. Includes all of DJ Dan's social links, bio, tour dates, contact info, etc.
 
