@@ -264,7 +264,7 @@
     }
 */
     .home-container {
-        width: 100%;
+        width: 80%;
     }
 
     .fortyfive-logo {
@@ -283,7 +283,7 @@
 
     .horiz-line {
         margin: 101.7px 0 0 0;
-        width: 350px;
+        width: 280px;
         height: 1px;
     }
 
@@ -296,7 +296,7 @@
 
     #social-links {
         margin: 205px 0 0 0;
-        width: 350px;
+        width: 280px;
         height: 40px;
     }
 
@@ -328,12 +328,12 @@
         margin: 246.6px 0 0 0;
         font-size: 15px;
         letter-spacing: .05rem;
-        width: 350px;
+        width: 280px;
         height: 20%;
     }
 
     ul {
-        width: 146px;
+        width: 130px;
         border-width: 1px;
         border-radius: 3.6px;
     }
@@ -350,8 +350,14 @@
     }
 
     .horiz-line-menu {
-        width: 350px;
+        width: 280px;
         height: 1px;
+    }
+
+    #sdam-link {
+        font-size: 13px;
+        height: 15px;
+        margin-top: 3px;
     }
 
     /*PAGES/SECTIONS//////////////////////////////////////////*/
